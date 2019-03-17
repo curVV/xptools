@@ -11,7 +11,7 @@ FORCEREBUILD_SUFFIX := _rfui
 ifdef PLAT_LINUX
 LDFLAGS		+= -rdynamic
 LDFLAGS		+= -Wl,--exclude-libs,ALL
-LIBS		+= -lQtCore -lQtGui -lQtOpenGL -lGL -lGLU -ldl
+LIBS		+= -lQt5Core -lQt5Gui -lQt5Widgets -lQt5OpenGL -lGL -lGLU -ldl
 LIBS		+= -lpthread
 LIBS		+= -Wl,-Bdynamic
 endif #PLAT_LINUX

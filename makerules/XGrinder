@@ -11,7 +11,7 @@ LIBS		:= ./libs/local$(MULTI_SUFFIX)/lib/libz.a
 
 ifdef PLAT_LINUX
 #LDFLAGS		+= -nodefaultlibs
-LIBS		+= -lQtCore -lQtGui -lpthread
+LIBS		+= -lQt5Core -lQt5Gui -lQt5Widgets -lpthread
 endif #PLAT_LINUX
 
 ifdef PLAT_MINGW

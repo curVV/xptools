@@ -11,7 +11,7 @@ DEFINES		+= -DUSE_JPEG=1 -DUSE_TIF=1
 ifdef PLAT_LINUX
 LDFLAGS		+= -rdynamic
 LDFLAGS		+= -Wl,--exclude-libs,ALL
-LIBS		+= -lQtCore -lQtGui -lQtOpenGL -lGL -lGLU -ldl -lpthread
+LIBS		+= -lQt5Core -lQt5Gui -lQt5Widgets -lQt5OpenGL -lGL -lGLU -ldl -lpthread
 LIBS		+= -Wl,-Bdynamic
 endif #PLAT_LINUX
 

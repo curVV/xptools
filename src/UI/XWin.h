@@ -61,7 +61,8 @@
 #define xmenu QMenu*
 #include <QtCore/QtCore>
 #include <QtGui/QtGui>
-#include <QtGui/QMainWindow>
+#include <QtWidgets/QtWidgets>
+#include <QtWidgets/QMainWindow>
 
 enum {
   _NET_WM_STATE_REMOVE,

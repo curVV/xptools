@@ -17,9 +17,10 @@ endif
 
 LDFLAGS		+= -rdynamic
 LDFLAGS		+= -Wl,--exclude-libs,ALL
-LIBS		+= -lQtCore
-LIBS		+= -lQtGui
-LIBS		+= -lQtOpenGL
+LIBS		+= -lQt5Core
+LIBS		+= -lQt5Gui
+LIBS        += -lQt5Widgets
+LIBS		+= -lQt5OpenGL
 LIBS		+= -lGL
 LIBS		+= -lGLU
 LIBS		+= -ldl

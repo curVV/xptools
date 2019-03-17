@@ -19,9 +19,9 @@ Provides: ObjConverter
 Provides: ObjView
 Provides: RenderFarm
 
-Requires: qt >= 4.5.0
+Requires: qt >= 5.11.0
 BuildRequires: gcc >= 4.2
-BuildRequires: qt-devel >= 4.5.0
+BuildRequires: qt-devel >= 5.11.0
 
 
 %prep
